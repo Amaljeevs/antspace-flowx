@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Inter', 'Plus Jakarta Sans', sans-serif;
+    @apply bg-[#F9FAFB] text-slate-900 dark:bg-[#111827] dark:text-slate-100;
+  }
+}
+
+@layer components {
+  .font-phonk {
+    font-family: 'Phonk Contrast DEMO', 'Phonk', sans-serif !important;
+    letter-spacing: 0.03em;
+  }
+}
